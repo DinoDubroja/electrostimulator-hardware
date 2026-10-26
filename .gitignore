@@ -1,0 +1,26 @@
+# Local-only files and OneDrive access
+Local/
+*_OneDrive/
+*.lnk
+desktop.ini
+Thumbs.db
+
+# Generated output and tool caches
+build/
+dist/
+node_modules/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.codex_work/
+
+# Temporary CAD files and backups
+*.tmp
+*.bak
+*.lck
+*.kicad_prl
+*.kicad_pcb.lck
+*.kicad_sch.lck
+*-backups/
+~$*
